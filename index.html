@@ -1,304 +1,617 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>晨耀免漆浴室柜 - 实力源头工厂</title>
+    <title>Direct Source Factory - Solid Plywood Painted-Free Bathroom Vanities</title>
+    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        emeraldBrand: '#059669',
+                        darkBg: '#111827',
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-<body class="bg-gray-50 text-gray-800 font-sans">
+<body class="bg-slate-50 text-slate-800 font-sans antialiased">
 
-    <!-- 顶部导航栏 -->
-    <header class="bg-white shadow-sm sticky top-0 z-50">
+    <!-- Header / Navbar -->
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md shadow-sm">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
-            <div class="text-xl font-bold text-gray-900 flex items-center gap-2">
-                <span>VANITY DIRECT</span>
-                <span class="text-xs bg-green-100 text-green-800 px-2 py-0.5 rounded">来源制造成商</span>
+            <div class="flex items-center space-x-3">
+                <div class="bg-emeraldBrand text-white p-2.5 rounded-lg text-xl font-bold">
+                    <i class="fa-solid fa-sink"></i>
+                </div>
+                <div>
+                    <span class="text-xl font-black tracking-tight text-slate-900">VANITY DIRECT</span>
+                    <span class="block text-xs text-emerald-600 font-semibold tracking-wider">SOURCE MANUFACTURER</span>
+                </div>
             </div>
-            <nav class="hidden md:flex space-x-8 text-sm font-medium text-gray-600">
-                <a href="#about" class="hover:text-blue-600">关于工厂</a>
-                <a href="#production" class="hover:text-blue-600">生产线</a>
-                <a href="#products" class="hover:text-blue-600">产品</a>
-                <a href="#contact" class="hover:text-blue-600">快速咨询</a>
+            <nav class="hidden md:flex items-center space-x-8 font-medium text-sm text-slate-600">
+                <a href="#about" class="hover:text-emeraldBrand transition">About Factory</a>
+                <a href="#workflow" class="hover:text-emeraldBrand transition">Production Line</a>
+                <a href="#products" class="hover:text-emeraldBrand transition">Products</a>
+                <a href="#calculator" class="hover:text-emeraldBrand transition">Quick Inquiry</a>
             </nav>
             <div>
-                <a href="https://wa.me/8615090693565" target="_blank" class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg text-sm font-medium flex items-center gap-2 transition duration-200">
+                <a href="https://wa.me/8615090693565" target="_blank" class="bg-emeraldBrand hover:bg-emerald-700 text-white px-5 py-2.5 rounded-full text-sm font-semibold transition flex items-center space-x-2 shadow-md shadow-emerald-600/20">
+                    <i class="fa-brands fa-whatsapp text-lg"></i>
                     <span>WhatsApp Business</span>
                 </a>
             </div>
         </div>
     </header>
 
-    <!-- 头部横幅与核心介绍 -->
-    <section id="about" class="bg-gradient-to-r from-gray-900 to-blue-900 text-white py-20">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <span class="inline-block bg-green-800 text-green-100 text-xs px-3 py-1 rounded-full mb-4">中国直接源头工厂</span>
-            <h1 class="text-3xl sm:text-5xl font-bold tracking-tight mb-6">
-                实心胶合板免涂漆浴室柜
-            </h1>
-            <p class="max-w-3xl mx-auto text-base sm:text-lg text-gray-300 mb-8 leading-relaxed">
-                配备先进的智能生产线，实现标准化、高效率生产。支持根据美国和欧盟市场需求定制尺寸和规格。
-            </p>
-            <div class="flex justify-center gap-4">
-                <a href="#contact" class="bg-emerald-600 hover:bg-emerald-700 text-white px-6 py-3 rounded-lg font-medium shadow-lg transition duration-200">立即获取报价</a>
-                <a href="#production" class="bg-gray-800 hover:bg-gray-700 text-white px-6 py-3 rounded-lg font-medium border border-gray-600 transition duration-200">查看生产线</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- 产品展示区域 (12款经典型号与尺寸) -->
-    <section id="products" class="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center mb-12">
-            <h2 class="text-3xl font-bold text-gray-900">OUR PRODUCT LINEUP</h2>
-            <p class="text-gray-600 mt-2">精选实心多层板，免漆环保表面，支持全球批发与工程定制。</p>
-        </div>
-
-        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            <!-- Model W964 -->
-            <div class="bg-white rounded-xl overflow-hidden shadow-md border border-gray-100">
-                <img src="W964.jpg" alt="Model W964" class="w-full h-64 object-cover">
-                <div class="p-6">
-                    <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded font-semibold">型号 W964</span>
-                    <h3 class="text-xl font-bold text-gray-900 mt-2">极简主义悬挂式梳妆台</h3>
-                    <p class="text-gray-600 text-sm mt-1">实心胶合板壁挂式单盆洗脸台，带智能LED镜。</p>
-                    <p class="text-gray-500 text-xs mt-2">尺寸: 800/900/1000 x 500 x 480毫米</p>
-                    <div class="flex justify-between items-center mt-4 pt-4 border-t border-gray-100">
-                        <span class="text-xs text-gray-500 font-medium">最小起订量: 10套</span>
-                        <span class="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded font-semibold">OEM/ODM</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Model W967 -->
-            <div class="bg-white rounded-xl overflow-hidden shadow-md border border-gray-100">
-                <img src="W967.jpg" alt="Model W967" class="w-full h-64 object-cover">
-                <div class="p-6">
-                    <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded font-semibold">型号 W967</span>
-                    <h3 class="text-xl font-bold text-gray-900 mt-2">木纹悬挂式梳妆台</h3>
-                    <p class="text-gray-600 text-sm mt-1">天然木纹免漆多层板，带三门镜柜。</p>
-                    <p class="text-gray-500 text-xs mt-2">尺寸: 800/900/1000 x 500 x 480毫米</p>
-                    <div class="flex justify-between items-center mt-4 pt-4 border-t border-gray-100">
-                        <span class="text-xs text-gray-500 font-medium">最小起订量: 10套</span>
-                        <span class="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded font-semibold">OEM/ODM</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Model W991 -->
-            <div class="bg-white rounded-xl overflow-hidden shadow-md border border-gray-100">
-                <img src="W991.jpg" alt="Model W991" class="w-full h-64 object-cover">
-                <div class="p-6">
-                    <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded font-semibold">型号 W991</span>
-                    <h3 class="text-xl font-bold text-gray-900 mt-2">胡桃木饰面梳妆台</h3>
-                    <p class="text-gray-600 text-sm mt-1">高端胡桃木色悬挂式梳妆台，带侧边储物柜和LED镜子。</p>
-                    <p class="text-gray-500 text-xs mt-2">尺寸: 800/900/1000 x 500 x 480毫米</p>
-                    <div class="flex justify-between items-center mt-4 pt-4 border-t border-gray-100">
-                        <span class="text-xs text-gray-500 font-medium">最小起订量: 10套</span>
-                        <span class="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded font-semibold">OEM/ODM</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Model W6620 -->
-            <div class="bg-white rounded-xl overflow-hidden shadow-md border border-gray-100">
-                <img src="W6620.jpg" alt="Model W6620" class="w-full h-64 object-cover">
-                <div class="p-6">
-                    <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded font-semibold">型号 W6620</span>
-                    <h3 class="text-xl font-bold text-gray-900 mt-2">经典深色木质梳妆台</h3>
-                    <p class="text-gray-600 text-sm mt-1">深色木纹多层板悬挂式梳妆台，配有优雅的把手。</p>
-                    <p class="text-gray-500 text-xs mt-2">尺寸: 800/900/1000 x 500 x 480毫米</p>
-                    <div class="flex justify-between items-center mt-4 pt-4 border-t border-gray-100">
-                        <span class="text-xs text-gray-500 font-medium">最小起订量: 10套</span>
-                        <span class="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded font-semibold">OEM/ODM</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Model W6630 -->
-            <div class="bg-white rounded-xl overflow-hidden shadow-md border border-gray-100">
-                <img src="W6630.jpg" alt="Model W6630" class="w-full h-64 object-cover">
-                <div class="p-6">
-                    <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded font-semibold">型号 W6630</span>
-                    <h3 class="text-xl font-bold text-gray-900 mt-2">现代风格胡桃木梳妆台</h3>
-                    <p class="text-gray-600 text-sm mt-1">壁挂式设计，配有2个缓冲抽屉和侧门储物空间。</p>
-                    <p class="text-gray-500 text-xs mt-2">尺寸: 800/900/1000 x 500 x 480毫米</p>
-                    <div class="flex justify-between items-center mt-4 pt-4 border-t border-gray-100">
-                        <span class="text-xs text-gray-500 font-medium">最小起订量: 10套</span>
-                        <span class="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded font-semibold">OEM/ODM</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Model W6622 -->
-            <div class="bg-white rounded-xl overflow-hidden shadow-md border border-gray-100">
-                <img src="W6622.jpg" alt="Model W6622" class="w-full h-64 object-cover">
-                <div class="p-6">
-                    <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded font-semibold">型号 W6622</span>
-                    <h3 class="text-xl font-bold text-gray-900 mt-2">紧凑型多层板梳妆台</h3>
-                    <p class="text-gray-600 text-sm mt-1">适用于公寓、酒店及各类现代卫浴空间。</p>
-                    <p class="text-gray-500 text-xs mt-2">尺寸: 600/700/800 x 480毫米</p>
-                    <div class="flex justify-between items-center mt-4 pt-4 border-t border-gray-100">
-                        <span class="text-xs text-gray-500 font-medium">最小起订量: 10套</span>
-                        <span class="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded font-semibold">OEM/ODM</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Model W6623 -->
-            <div class="bg-white rounded-xl overflow-hidden shadow-md border border-gray-100">
-                <img src="W6623.jpg" alt="Model W6623" class="w-full h-64 object-cover">
-                <div class="p-6">
-                    <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded font-semibold">型号 W6623</span>
-                    <h3 class="text-xl font-bold text-gray-900 mt-2">设计师款悬浮浴室柜</h3>
-                    <p class="text-gray-600 text-sm mt-1">线条流畅，高端五金完美集成。</p>
-                    <p class="text-gray-500 text-xs mt-2">尺寸: 900/1000 x 500毫米</p>
-                    <div class="flex justify-between items-center mt-4 pt-4 border-t border-gray-100">
-                        <span class="text-xs text-gray-500 font-medium">最小起订量: 10套</span>
-                        <span class="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded font-semibold">OEM/ODM</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Model W6624 -->
-            <div class="bg-white rounded-xl overflow-hidden shadow-md border border-gray-100">
-                <img src="W6624.jpg" alt="Model W6624" class="w-full h-64 object-cover">
-                <div class="p-6">
-                    <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded font-semibold">型号 W6624</span>
-                    <h3 class="text-xl font-bold text-gray-900 mt-2">智能LED浴室柜</h3>
-                    <p class="text-gray-600 text-sm mt-1">内置智能照明与优化抽屉内部分隔。</p>
-                    <p class="text-gray-500 text-xs mt-2">尺寸: 1000/1200 x 520毫米</p>
-                    <div class="flex justify-between items-center mt-4 pt-4 border-t border-gray-100">
-                        <span class="text-xs text-gray-500 font-medium">最小起订量: 10套</span>
-                        <span class="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded font-semibold">OEM/ODM</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Model W6631 -->
-            <div class="bg-white rounded-xl overflow-hidden shadow-md border border-gray-100">
-                <img src="W6631.jpg" alt="Model W6631" class="w-full h-64 object-cover">
-                <div class="p-6">
-                    <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded font-semibold">型号 W6631</span>
-                    <h3 class="text-xl font-bold text-gray-900 mt-2">工程定制酒店浴室柜</h3>
-                    <p class="text-gray-600 text-sm mt-1">专为承包商、房地产开发商及批发商打造。</p>
-                    <p class="text-gray-500 text-xs mt-2">尺寸: 支持欧美标准定制</p>
-                    <div class="flex justify-between items-center mt-4 pt-4 border-t border-gray-100">
-                        <span class="text-xs text-gray-500 font-medium">最小起订量: 10套</span>
-                        <span class="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded font-semibold">OEM/ODM</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Model W906 -->
-            <div class="bg-white rounded-xl overflow-hidden shadow-md border border-gray-100">
-                <img src="W906.jpg" alt="Model W906" class="w-full h-64 object-cover">
-                <div class="p-6">
-                    <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded font-semibold">型号 W906</span>
-                    <h3 class="text-xl font-bold text-gray-900 mt-2">欧洲标准浴室柜</h3>
-                    <p class="text-gray-600 text-sm mt-1">严格遵循欧洲市场尺寸与品质检测标准。</p>
-                    <p class="text-gray-500 text-xs mt-2">尺寸: 900 x 480毫米</p>
-                    <div class="flex justify-between items-center mt-4 pt-4 border-t border-gray-100">
-                        <span class="text-xs text-gray-500 font-medium">最小起订量: 10套</span>
-                        <span class="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded font-semibold">OEM/ODM</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Model W914 -->
-            <div class="bg-white rounded-xl overflow-hidden shadow-md border border-gray-100">
-                <img src="W914.jpg" alt="Model W914" class="w-full h-64 object-cover">
-                <div class="p-6">
-                    <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded font-semibold">型号 W914</span>
-                    <h3 class="text-xl font-bold text-gray-900 mt-2">美国标准浴室柜</h3>
-                    <p class="text-gray-600 text-sm mt-1">契合美标尺寸，多层板结构坚固耐用。</p>
-                    <p class="text-gray-500 text-xs mt-2">尺寸: 36 x 21.5英寸 (915毫米)</p>
-                    <div class="flex justify-between items-center mt-4 pt-4 border-t border-gray-100">
-                        <span class="text-xs text-gray-500 font-medium">最小起订量: 10套</span>
-                        <span class="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded font-semibold">OEM/ODM</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Model W924 -->
-            <div class="bg-white rounded-xl overflow-hidden shadow-md border border-gray-100">
-                <img src="W924.jpg" alt="Model W924" class="w-full h-64 object-cover">
-                <div class="p-6">
-                    <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded font-semibold">型号 W924</span>
-                    <h3 class="text-xl font-bold text-gray-900 mt-2">高端建筑项目浴室柜</h3>
-                    <p class="text-gray-600 text-sm mt-1">卓越工艺，专为高端住宅与商业分销设计。</p>
-                    <p class="text-gray-500 text-xs mt-2">尺寸: 1500 x 520毫米 (60英寸)</p>
-                    <div class="flex justify-between items-center mt-4 pt-4 border-t border-gray-100">
-                        <span class="text-xs text-gray-500 font-medium">最小起订量: 10套</span>
-                        <span class="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded font-semibold">OEM/ODM</span>
-                    </div>
+    <!-- Hero Section -->
+    <section class="relative bg-slate-900 text-white py-24 lg:py-32 overflow-hidden">
+        <div class="absolute inset-0 opacity-20 bg-[radial-gradient(#059669_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="max-w-3xl">
+                <span class="inline-flex items-center space-x-2 bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-semibold px-3 py-1 rounded-full mb-6">
+                    <i class="fa-solid fa-industry"></i>
+                    <span>Direct Source Factory in China</span>
+                </span>
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight mb-6">
+                    Solid Plywood Painted-Free <span class="text-emerald-400">Bathroom Vanities</span>
+                </h1>
+                <p class="text-lg text-slate-300 mb-8 leading-relaxed">
+                    Equipped with advanced smart production lines for standardized, high-efficiency manufacturing. Supporting custom sizes and tailored dimensions for US & European market requirements.
+                </p>
+                <div class="flex flex-col sm:flex-row items-stretch sm:items-center space-y-4 sm:space-y-0 sm:space-x-4">
+                    <a href="#calculator" class="bg-emeraldBrand hover:bg-emerald-700 text-white text-center font-semibold px-8 py-4 rounded-xl transition shadow-lg shadow-emerald-600/30">
+                        Get Instant Quotation
+                    </a>
+                    <a href="#workflow" class="bg-slate-800 hover:bg-slate-700 border border-slate-700 text-white text-center font-semibold px-8 py-4 rounded-xl transition">
+                        View Production Line
+                    </a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 工厂生产流程展示 (对应截图IMG_0046.jpg样式) -->
-    <section id="production" class="bg-gray-100 py-16">
+    <!-- Factory Overview Section -->
+    <section id="about" class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-12">
-                <h2 class="text-3xl font-bold text-gray-900">FACTORY PRODUCTION PROCESS</h2>
-                <p class="text-gray-600 mt-2">精益求精的制造工艺与严格的品质控制体系。</p>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <span class="text-emerald-600 text-xs font-extrabold tracking-wider uppercase">Source Factory Advantage</span>
+                    <h2 class="text-3xl font-extrabold text-slate-900 mt-2 mb-6">One-Stop Manufacturing Partner for Global Projects & Trade</h2>
+                    <p class="text-slate-600 leading-relaxed mb-4">
+                        We specialize in manufacturing solid plywood painted-free bathroom vanities. Operating our own modern facility with imported intelligent equipment, we ensure standardized batch production with stable, high-efficiency, and quality-assured delivery.
+                    </p>
+                    <p class="text-slate-600 leading-relaxed mb-6">
+                        Whether you need private label OEM production, custom dimension tailoring for US/EU market sizes, or bulk engineering project fulfillment, we offer a complete one-stop manufacturing solution.
+                    </p>
+                    <div class="grid grid-cols-2 gap-4 text-sm font-semibold text-slate-800">
+                        <div class="flex items-center space-x-2">
+                            <i class="fa-solid fa-circle-check text-emerald-500"></i>
+                            <span>100% Solid Plywood Core</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <i class="fa-solid fa-circle-check text-emerald-500"></i>
+                            <span>US & EU Size Customization</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <i class="fa-solid fa-circle-check text-emerald-500"></i>
+                            <span>Full Customization (OEM/ODM)</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <i class="fa-solid fa-circle-check text-emerald-500"></i>
+                            <span>Batch Engineering Fulfillment</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="rounded-2xl overflow-hidden shadow-xl border border-slate-100">
+                    <img src="factory-1.jpg" alt="Factory Exterior" class="w-full h-96 object-cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Production Workflow Showcase -->
+    <section id="workflow" class="py-20 bg-slate-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-emerald-400 text-xs font-semibold uppercase tracking-wider">Quality Control & Manufacturing</span>
+                <h2 class="text-3xl font-extrabold mt-2 mb-4">Standardized Workshop & Production Process</h2>
+                <p class="text-slate-400 text-sm">Transparency builds trust. Explore our complete manufacturing flow from raw plywood cutting to final package storage.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Cutting Area -->
+                <div class="bg-slate-800 rounded-2xl overflow-hidden border border-slate-700">
+                    <div class="h-56 overflow-hidden">
+                        <img src="Cuttingarea.jpg" alt="Precision Cutting Area" class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-lg font-bold text-white mb-2">Precision CNC Cutting Area</h3>
+                        <p class="text-xs text-slate-400 leading-relaxed">Standardized raw multi-layer board cutting using intelligent machinery for precise panel dimensions.</p>
+                    </div>
+                </div>
+
+                <!-- Edge Banding -->
+                <div class="bg-slate-800 rounded-2xl overflow-hidden border border-slate-700">
+                    <div class="h-56 overflow-hidden">
+                        <img src="workshop-cnc1.jpg" alt="Edge Banding Line" class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-lg font-bold text-white mb-2">Automated Edge Banding</h3>
+                        <p class="text-xs text-slate-400 leading-relaxed">Heavy-duty linear edge banding machine operated by skilled workers for seamless finish.</p>
+                    </div>
+                </div>
+
+                <!-- Edge Banding Detail -->
+                <div class="bg-slate-800 rounded-2xl overflow-hidden border border-slate-700">
+                    <div class="h-56 overflow-hidden">
+                        <img src="workshop-cnc2.jpg" alt="Seamless Sealing Detail" class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-lg font-bold text-white mb-2">Seamless Sealing Detail</h3>
+                        <p class="text-xs text-slate-400 leading-relaxed">Advanced hot-melt edge sealing craft locking out moisture, steam, and humidity permanently.</p>
+                    </div>
+                </div>
+
+                <!-- Semi-Finished Area -->
+                <div class="bg-slate-800 rounded-2xl overflow-hidden border border-slate-700">
+                    <div class="h-56 overflow-hidden">
+                        <img src="workshop-cnc3.jpg" alt="Semi-Finished Assembly Area" class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-lg font-bold text-white mb-2">Semi-Finished Assembly Zone</h3>
+                        <p class="text-xs text-slate-400 leading-relaxed">Organized workshop section for pre-assembly, hardware fitting, and structure check.</p>
+                    </div>
+                </div>
+
+                <!-- Finished Area -->
+                <div class="bg-slate-800 rounded-2xl overflow-hidden border border-slate-700 lg:col-span-2">
+                    <div class="h-56 overflow-hidden">
+                        <img src="fininshed-product-area.jpg" alt="Finished Products Warehouse" class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-lg font-bold text-white mb-2">Export Packaging & Warehouse</h3>
+                        <p class="text-xs text-slate-400 leading-relaxed">Strengthened corrugated carton packaging for safe ocean freight transit to international markets.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Showcase (12 Models) -->
+    <section id="products" class="py-20 bg-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-emerald-600 text-xs font-bold uppercase tracking-wider">Customizable Collections</span>
+                <h2 class="text-3xl font-extrabold text-slate-900 mt-1 mb-4">Featured Wall-Hung Vanity Collections</h2>
+                <p class="text-slate-600 text-sm">Solid wood plywood construction, smart LED mirrors, and paint-free finishes. All models support custom sizes for US/EU market specifications.</p>
             </div>
             
-            <div class="grid md:grid-cols-3 gap-8">
-                <div class="bg-white rounded-xl overflow-hidden shadow-md border border-gray-200">
-                    <img src="Cuttingarea.jpg" alt="精密数控切割区域" class="w-full h-64 object-cover">
-                    <div class="p-6">
-                        <span class="text-xs text-emerald-600 font-semibold">步骤 01</span>
-                        <h3 class="text-lg font-bold text-gray-900 mt-1">精密数控切割区域</h3>
-                        <p class="text-gray-600 text-sm mt-2">采用智能机械对多层板材进行标准化切割，以实现精确的板材尺寸。</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Model W964 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="h-64 bg-slate-200 relative overflow-hidden">
+                            <img src="W964.jpg" alt="Model W964" class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                            <span class="absolute top-4 left-4 bg-emerald-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow">Model W964</span>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-slate-900 mb-2">Minimalist Curved Vanity</h3>
+                            <div class="space-y-2.5 text-xs text-slate-600 mb-6">
+                                <p class="flex items-start"><i class="fa-solid fa-layer-group text-emerald-600 mt-0.5 mr-2"></i><span><strong>Material:</strong> Solid Wood Plywood with Paint-Free Finish</span></p>
+                                <p class="flex items-start"><i class="fa-solid fa-ruler-combined text-emerald-600 mt-0.5 mr-2"></i><span><strong>Main Cabinet Size (L×W×H):</strong><br><span class="text-slate-900 font-bold">800 / 900 / 1000 mm</span><br><span class="text-emerald-700 font-semibold">(31.5" / 35.4" / 39.4" inches)</span></span></p>
+                                <p class="flex items-start"><i class="fa-solid fa-wand-magic-sparkles text-emerald-600 mt-0.5 mr-2"></i><span><strong>Key Features:</strong> Curved anti-collision design, PVC painted door, Radar sensor light + Anti-fog smart LED mirror.</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6 pt-0 border-t border-slate-100 mt-auto">
+                        <div class="flex flex-col gap-2.5 mt-4">
+                            <span class="bg-emerald-50 text-emerald-700 text-xs font-bold px-3 py-1.5 rounded-md border border-emerald-200 text-center">
+                                <i class="fa-solid fa-pen-ruler mr-1"></i> Custom Sizes Supported
+                            </span>
+                            <a href="https://wa.me/8615090693565?text=Hi%2C%20I%20want%20to%20get%20a%20custom%20quote%20for%20Model%20W964." target="_blank" class="bg-slate-900 hover:bg-emeraldBrand text-white text-xs font-semibold py-2.5 rounded-md text-center transition duration-200 block">
+                                Get Custom Quote
+                            </a>
+                        </div>
                     </div>
                 </div>
 
-                <div class="bg-white rounded-xl overflow-hidden shadow-md border border-gray-200">
-                    <img src="workshop-cnc1.jpg" alt="自动封边" class="w-full h-64 object-cover">
-                    <div class="p-6">
-                        <span class="text-xs text-emerald-600 font-semibold">步骤 02</span>
-                        <h3 class="text-lg font-bold text-gray-900 mt-1">自动封边</h3>
-                        <p class="text-gray-600 text-sm mt-2">由熟练工人操作的重型直线封边机，可实现无缝封边效果。</p>
+                <!-- Model W967 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="h-64 bg-slate-200 relative overflow-hidden">
+                            <img src="W967.jpg" alt="Model W967" class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                            <span class="absolute top-4 left-4 bg-emerald-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow">Model W967</span>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-slate-900 mb-2">Natural Wood-Grain Arc Vanity</h3>
+                            <div class="space-y-2.5 text-xs text-slate-600 mb-6">
+                                <p class="flex items-start"><i class="fa-solid fa-layer-group text-emerald-600 mt-0.5 mr-2"></i><span><strong>Material:</strong> Solid Wood Plywood with Paint-Free Finish</span></p>
+                                <p class="flex items-start"><i class="fa-solid fa-ruler-combined text-emerald-600 mt-0.5 mr-2"></i><span><strong>Main Cabinet Size (L×W×H):</strong><br><span class="text-slate-900 font-bold">800 / 900 / 1000 mm</span><br><span class="text-emerald-700 font-semibold">(31.5" / 35.4" / 39.4" inches)</span></span></p>
+                                <p class="flex items-start"><i class="fa-solid fa-wand-magic-sparkles text-emerald-600 mt-0.5 mr-2"></i><span><strong>Key Features:</strong> Natural wood style with arc anti-collision corners, intelligent Radar sensor LED illumination.</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6 pt-0 border-t border-slate-100 mt-auto">
+                        <div class="flex flex-col gap-2.5 mt-4">
+                            <span class="bg-emerald-50 text-emerald-700 text-xs font-bold px-3 py-1.5 rounded-md border border-emerald-200 text-center">
+                                <i class="fa-solid fa-pen-ruler mr-1"></i> Custom Sizes Supported
+                            </span>
+                            <a href="https://wa.me/8615090693565?text=Hi%2C%20I%20want%20to%20get%20a%20custom%20quote%20for%20Model%20W967." target="_blank" class="bg-slate-900 hover:bg-emeraldBrand text-white text-xs font-semibold py-2.5 rounded-md text-center transition duration-200 block">
+                                Get Custom Quote
+                            </a>
+                        </div>
                     </div>
                 </div>
 
-                <div class="bg-white rounded-xl overflow-hidden shadow-md border border-gray-200">
-                    <img src="workshop-cnc2.jpg" alt="PUR无缝密封细节" class="w-full h-64 object-cover">
-                    <div class="p-6">
-                        <span class="text-xs text-emerald-600 font-semibold">步骤 03</span>
-                        <h3 class="text-lg font-bold text-gray-900 mt-1">PUR无缝密封细节</h3>
-                        <p class="text-gray-600 text-sm mt-2">先进的热熔PUR密封工艺，可永久阻隔水分，确保持久耐用。</p>
+                <!-- Model W991 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="h-64 bg-slate-200 relative overflow-hidden">
+                            <img src="W991.jpg" alt="Model W991" class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                            <span class="absolute top-4 left-4 bg-emerald-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow">Model W991</span>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-slate-900 mb-2">Luxury Walnut Finish Suite</h3>
+                            <div class="space-y-2.5 text-xs text-slate-600 mb-6">
+                                <p class="flex items-start"><i class="fa-solid fa-layer-group text-emerald-600 mt-0.5 mr-2"></i><span><strong>Material:</strong> Solid Wood Plywood with Paint-Free Finish</span></p>
+                                <p class="flex items-start"><i class="fa-solid fa-ruler-combined text-emerald-600 mt-0.5 mr-2"></i><span><strong>Main Cabinet Size (L×W×H):</strong><br><span class="text-slate-900 font-bold">800 / 900 / 1000 / 1100 / 1200 mm</span><br><span class="text-emerald-700 font-semibold">(31.5" / 35.4" / 39.4" / 43.3" / 47.2" inches)</span></span></p>
+                                <p class="flex items-start"><i class="fa-solid fa-wand-magic-sparkles text-emerald-600 mt-0.5 mr-2"></i><span><strong>Key Features:</strong> Premium Walnut finish, high-end mirror cabinet with Radar sensor LED lighting.</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6 pt-0 border-t border-slate-100 mt-auto">
+                        <div class="flex flex-col gap-2.5 mt-4">
+                            <span class="bg-emerald-50 text-emerald-700 text-xs font-bold px-3 py-1.5 rounded-md border border-emerald-200 text-center">
+                                <i class="fa-solid fa-pen-ruler mr-1"></i> Custom Sizes Supported
+                            </span>
+                            <a href="https://wa.me/8615090693565?text=Hi%2C%20I%20want%20to%20get%20a%20custom%20quote%20for%20Model%20W991." target="_blank" class="bg-slate-900 hover:bg-emeraldBrand text-white text-xs font-semibold py-2.5 rounded-md text-center transition duration-200 block">
+                                Get Custom Quote
+                            </a>
+                        </div>
                     </div>
                 </div>
+
+                <!-- Model W6620 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="h-64 bg-slate-200 relative overflow-hidden">
+                            <img src="W6620.jpg" alt="Model W6620" class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                            <span class="absolute top-4 left-4 bg-emerald-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow">Model W6620</span>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-slate-900 mb-2">Classic Dual-Door Storage Vanity</h3>
+                            <div class="space-y-2.5 text-xs text-slate-600 mb-6">
+                                <p class="flex items-start"><i class="fa-solid fa-layer-group text-emerald-600 mt-0.5 mr-2"></i><span><strong>Material:</strong> Solid Wood Plywood with Paint-Free Finish</span></p>
+                                <p class="flex items-start"><i class="fa-solid fa-ruler-combined text-emerald-600 mt-0.5 mr-2"></i><span><strong>Main Cabinet Size (L×W×H):</strong><br><span class="text-slate-900 font-bold">800 / 900 / 1000 mm</span><br><span class="text-emerald-700 font-semibold">(31.5" / 35.4" / 39.4" inches)</span></span></p>
+                                <p class="flex items-start"><i class="fa-solid fa-wand-magic-sparkles text-emerald-600 mt-0.5 mr-2"></i><span><strong>Key Features:</strong> Dual drawers + dual door large storage, mirror cabinet equipped with Radar sensor LED light.</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6 pt-0 border-t border-slate-100 mt-auto">
+                        <div class="flex flex-col gap-2.5 mt-4">
+                            <span class="bg-emerald-50 text-emerald-700 text-xs font-bold px-3 py-1.5 rounded-md border border-emerald-200 text-center">
+                                <i class="fa-solid fa-pen-ruler mr-1"></i> Custom Sizes Supported
+                            </span>
+                            <a href="https://wa.me/8615090693565?text=Hi%2C%20I%20want%20to%20get%20a%20custom%20quote%20for%20Model%20W6620." target="_blank" class="bg-slate-900 hover:bg-emeraldBrand text-white text-xs font-semibold py-2.5 rounded-md text-center transition duration-200 block">
+                                Get Custom Quote
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Model W6630 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="h-64 bg-slate-200 relative overflow-hidden">
+                            <img src="W6630.jpg" alt="Model W6630" class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                            <span class="absolute top-4 left-4 bg-emerald-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow">Model W6630</span>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-slate-900 mb-2">Modern Light-Walnut Smart Vanity</h3>
+                            <div class="space-y-2.5 text-xs text-slate-600 mb-6">
+                                <p class="flex items-start"><i class="fa-solid fa-layer-group text-emerald-600 mt-0.5 mr-2"></i><span><strong>Material:</strong> Solid Wood Plywood with Paint-Free Finish</span></p>
+                                <p class="flex items-start"><i class="fa-solid fa-ruler-combined text-emerald-600 mt-0.5 mr-2"></i><span><strong>Main Cabinet Size (L×W×H):</strong><br><span class="text-slate-900 font-bold">800 / 900 / 1000 mm</span><br><span class="text-emerald-700 font-semibold">(31.5" / 35.4" / 39.4" inches)</span></span></p>
+                                <p class="flex items-start"><i class="fa-solid fa-wand-magic-sparkles text-emerald-600 mt-0.5 mr-2"></i><span><strong>Key Features:</strong> Light Walnut tone paint-free board, intelligent Anti-fog smart LED mirror.</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6 pt-0 border-t border-slate-100 mt-auto">
+                        <div class="flex flex-col gap-2.5 mt-4">
+                            <span class="bg-emerald-50 text-emerald-700 text-xs font-bold px-3 py-1.5 rounded-md border border-emerald-200 text-center">
+                                <i class="fa-solid fa-pen-ruler mr-1"></i> Custom Sizes Supported
+                            </span>
+                            <a href="https://wa.me/8615090693565?text=Hi%2C%20I%20want%20to%20get%20a%20custom%20quote%20for%20Model%20W6630." target="_blank" class="bg-slate-900 hover:bg-emeraldBrand text-white text-xs font-semibold py-2.5 rounded-md text-center transition duration-200 block">
+                                Get Custom Quote
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 【新增】Model W6622 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="h-64 bg-slate-200 relative overflow-hidden">
+                            <img src="W6622.jpg" alt="Model W6622" class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                            <span class="absolute top-4 left-4 bg-emerald-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow">Model W6622</span>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-slate-900 mb-2">Orchid Grey Skin-Feel Vanity</h3>
+                            <div class="space-y-2.5 text-xs text-slate-600 mb-6">
+                                <p class="flex items-start"><i class="fa-solid fa-layer-group text-emerald-600 mt-0.5 mr-2"></i><span><strong>Material:</strong> Solid Wood Plywood with Paint-Free Finish</span></p>
+                                <p class="flex items-start"><i class="fa-solid fa-ruler-combined text-emerald-600 mt-0.5 mr-2"></i><span><strong>Main Cabinet Size (L×W×H):</strong><br><span class="text-slate-900 font-bold">800 / 900 / 1000 mm</span><br><span class="text-emerald-700 font-semibold">(31.5" / 35.4" / 39.4" inches)</span></span></p>
+                                <p class="flex items-start"><i class="fa-solid fa-wand-magic-sparkles text-emerald-600 mt-0.5 mr-2"></i><span><strong>Key Features:</strong> Orchid Grey skin-feel texture panel, waterproof PVC painted door, Anti-fog smart LED mirror.</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6 pt-0 border-t border-slate-100 mt-auto">
+                        <div class="flex flex-col gap-2.5 mt-4">
+                            <span class="bg-emerald-50 text-emerald-700 text-xs font-bold px-3 py-1.5 rounded-md border border-emerald-200 text-center">
+                                <i class="fa-solid fa-pen-ruler mr-1"></i> Custom Sizes Supported
+                            </span>
+                            <a href="https://wa.me/8615090693565?text=Hi%2C%20I%20want%20to%20get%20a%20custom%20quote%20for%20Model%20W6622." target="_blank" class="bg-slate-900 hover:bg-emeraldBrand text-white text-xs font-semibold py-2.5 rounded-md text-center transition duration-200 block">
+                                Get Custom Quote
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 【新增】Model W6623 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="h-64 bg-slate-200 relative overflow-hidden">
+                            <img src="W6623.jpg" alt="Model W6623" class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                            <span class="absolute top-4 left-4 bg-emerald-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow">Model W6623</span>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-slate-900 mb-2">Mocha Grey Skin-Feel Vanity</h3>
+                            <div class="space-y-2.5 text-xs text-slate-600 mb-6">
+                                <p class="flex items-start"><i class="fa-solid fa-layer-group text-emerald-600 mt-0.5 mr-2"></i><span><strong>Material:</strong> Solid Wood Plywood with Paint-Free Finish</span></p>
+                                <p class="flex items-start"><i class="fa-solid fa-ruler-combined text-emerald-600 mt-0.5 mr-2"></i><span><strong>Main Cabinet Size (L×W×H):</strong><br><span class="text-slate-900 font-bold">800 / 900 / 1000 mm</span><br><span class="text-emerald-700 font-semibold">(31.5" / 35.4" / 39.4" inches)</span></span></p>
+                                <p class="flex items-start"><i class="fa-solid fa-wand-magic-sparkles text-emerald-600 mt-0.5 mr-2"></i><span><strong>Key Features:</strong> Modern Mocha Grey skin-feel plywood, waterproof PVC spray-painted door, Radar sensor LED lighting.</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6 pt-0 border-t border-slate-100 mt-auto">
+                        <div class="flex flex-col gap-2.5 mt-4">
+                            <span class="bg-emerald-50 text-emerald-700 text-xs font-bold px-3 py-1.5 rounded-md border border-emerald-200 text-center">
+                                <i class="fa-solid fa-pen-ruler mr-1"></i> Custom Sizes Supported
+                            </span>
+                            <a href="https://wa.me/8615090693565?text=Hi%2C%20I%20want%20to%20get%20a%20custom%20quote%20for%20Model%20W6623." target="_blank" class="bg-slate-900 hover:bg-emeraldBrand text-white text-xs font-semibold py-2.5 rounded-md text-center transition duration-200 block">
+                                Get Custom Quote
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 【新增】Model W6624 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="h-64 bg-slate-200 relative overflow-hidden">
+                            <img src="W6624.jpg" alt="Model W6624" class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                            <span class="absolute top-4 left-4 bg-emerald-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow">Model W6624</span>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-slate-900 mb-2">Smart Basket Vanity Suite</h3>
+                            <div class="space-y-2.5 text-xs text-slate-600 mb-6">
+                                <p class="flex items-start"><i class="fa-solid fa-layer-group text-emerald-600 mt-0.5 mr-2"></i><span><strong>Material:</strong> Solid Wood Plywood with Paint-Free Finish</span></p>
+                                <p class="flex items-start"><i class="fa-solid fa-ruler-combined text-emerald-600 mt-0.5 mr-2"></i><span><strong>Main Cabinet Size (L×W×H):</strong><br><span class="text-slate-900 font-bold">800 / 900 / 1000 mm</span><br><span class="text-emerald-700 font-semibold">(31.5" / 35.4" / 39.4" inches)</span></span></p>
+                                <p class="flex items-start"><i class="fa-solid fa-wand-magic-sparkles text-emerald-600 mt-0.5 mr-2"></i><span><strong>Key Features:</strong> Equipped with multi-functional PVC pull-out storage basket, Anti-fog smart LED mirror cabinet.</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6 pt-0 border-t border-slate-100 mt-auto">
+                        <div class="flex flex-col gap-2.5 mt-4">
+                            <span class="bg-emerald-50 text-emerald-700 text-xs font-bold px-3 py-1.5 rounded-md border border-emerald-200 text-center">
+                                <i class="fa-solid fa-pen-ruler mr-1"></i> Custom Sizes Supported
+                            </span>
+                            <a href="https://wa.me/8615090693565?text=Hi%2C%20I%20want%20to%20get%20a%20custom%20quote%20for%20Model%20W6624." target="_blank" class="bg-slate-900 hover:bg-emeraldBrand text-white text-xs font-semibold py-2.5 rounded-md text-center transition duration-200 block">
+                                Get Custom Quote
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 【新增】Model W6631 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="h-64 bg-slate-200 relative overflow-hidden">
+                            <img src="W6631.jpg" alt="Model W6631" class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                            <span class="absolute top-4 left-4 bg-emerald-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow">Model W6631</span>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-slate-900 mb-2">Retro Wood-Grain Vanity</h3>
+                            <div class="space-y-2.5 text-xs text-slate-600 mb-6">
+                                <p class="flex items-start"><i class="fa-solid fa-layer-group text-emerald-600 mt-0.5 mr-2"></i><span><strong>Material:</strong> Solid Wood Plywood with Paint-Free Finish</span></p>
+                                <p class="flex items-start"><i class="fa-solid fa-ruler-combined text-emerald-600 mt-0.5 mr-2"></i><span><strong>Main Cabinet Size (L×W×H):</strong><br><span class="text-slate-900 font-bold">800 / 900 / 1000 mm</span><br><span class="text-emerald-700 font-semibold">(31.5" / 35.4" / 39.4" inches)</span></span></p>
+                                <p class="flex items-start"><i class="fa-solid fa-wand-magic-sparkles text-emerald-600 mt-0.5 mr-2"></i><span><strong>Key Features:</strong> Retro vintage wood texture aesthetic, mirror cabinet with intelligent Radar motion sensor LED lighting.</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6 pt-0 border-t border-slate-100 mt-auto">
+                        <div class="flex flex-col gap-2.5 mt-4">
+                            <span class="bg-emerald-50 text-emerald-700 text-xs font-bold px-3 py-1.5 rounded-md border border-emerald-200 text-center">
+                                <i class="fa-solid fa-pen-ruler mr-1"></i> Custom Sizes Supported
+                            </span>
+                            <a href="https://wa.me/8615090693565?text=Hi%2C%20I%20want%20to%20get%20a%20custom%20quote%20for%20Model%20W6631." target="_blank" class="bg-slate-900 hover:bg-emeraldBrand text-white text-xs font-semibold py-2.5 rounded-md text-center transition duration-200 block">
+                                Get Custom Quote
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 【新增】Model W906 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="h-64 bg-slate-200 relative overflow-hidden">
+                            <img src="W906.jpg" alt="Model W906" class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                            <span class="absolute top-4 left-4 bg-emerald-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow">Model W906</span>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-slate-900 mb-2">Built-In Silver Mirror Vanity</h3>
+                            <div class="space-y-2.5 text-xs text-slate-600 mb-6">
+                                <p class="flex items-start"><i class="fa-solid fa-layer-group text-emerald-600 mt-0.5 mr-2"></i><span><strong>Material:</strong> Solid Wood Plywood with Paint-Free Finish</span></p>
+                                <p class="flex items-start"><i class="fa-solid fa-ruler-combined text-emerald-600 mt-0.5 mr-2"></i><span><strong>Main Cabinet Size (L×W×H):</strong><br><span class="text-slate-900 font-bold">800 / 900 / 1000 mm</span><br><span class="text-emerald-700 font-semibold">(31.5" / 35.4" / 39.4" inches)</span></span></p>
+                                <p class="flex items-start"><i class="fa-solid fa-wand-magic-sparkles text-emerald-600 mt-0.5 mr-2"></i><span><strong>Key Features:</strong> Premium built-in high-definition silver mirror, Radar motion sensor LED lighting.</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6 pt-0 border-t border-slate-100 mt-auto">
+                        <div class="flex flex-col gap-2.5 mt-4">
+                            <span class="bg-emerald-50 text-emerald-700 text-xs font-bold px-3 py-1.5 rounded-md border border-emerald-200 text-center">
+                                <i class="fa-solid fa-pen-ruler mr-1"></i> Custom Sizes Supported
+                            </span>
+                            <a href="https://wa.me/8615090693565?text=Hi%2C%20I%20want%20to%20get%20a%20custom%20quote%20for%20Model%20W906." target="_blank" class="bg-slate-900 hover:bg-emeraldBrand text-white text-xs font-semibold py-2.5 rounded-md text-center transition duration-200 block">
+                                Get Custom Quote
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 【新增】Model W914 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="h-64 bg-slate-200 relative overflow-hidden">
+                            <img src="W914.jpg" alt="Model W914" class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                            <span class="absolute top-4 left-4 bg-emerald-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow">Model W914</span>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-slate-900 mb-2">Gunmetal Grey Modern Vanity</h3>
+                            <div class="space-y-2.5 text-xs text-slate-600 mb-6">
+                                <p class="flex items-start"><i class="fa-solid fa-layer-group text-emerald-600 mt-0.5 mr-2"></i><span><strong>Material:</strong> Solid Wood Plywood with Paint-Free Finish</span></p>
+                                <p class="flex items-start"><i class="fa-solid fa-ruler-combined text-emerald-600 mt-0.5 mr-2"></i><span><strong>Main Cabinet Size (L×W×H):</strong><br><span class="text-slate-900 font-bold">800 / 900 / 1000 mm</span><br><span class="text-emerald-700 font-semibold">(31.5" / 35.4" / 39.4" inches)</span></span></p>
+                                <p class="flex items-start"><i class="fa-solid fa-wand-magic-sparkles text-emerald-600 mt-0.5 mr-2"></i><span><strong>Key Features:</strong> Contemporary Gunmetal Grey finish, Radar motion sensor LED smart mirror.</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6 pt-0 border-t border-slate-100 mt-auto">
+                        <div class="flex flex-col gap-2.5 mt-4">
+                            <span class="bg-emerald-50 text-emerald-700 text-xs font-bold px-3 py-1.5 rounded-md border border-emerald-200 text-center">
+                                <i class="fa-solid fa-pen-ruler mr-1"></i> Custom Sizes Supported
+                            </span>
+                            <a href="https://wa.me/8615090693565?text=Hi%2C%20I%20want%20to%20get%20a%20custom%20quote%20for%20Model%20W914." target="_blank" class="bg-slate-900 hover:bg-emeraldBrand text-white text-xs font-semibold py-2.5 rounded-md text-center transition duration-200 block">
+                                Get Custom Quote
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 【新增】Model W924 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="h-64 bg-slate-200 relative overflow-hidden">
+                            <img src="W924.jpg" alt="Model W924" class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                            <span class="absolute top-4 left-4 bg-emerald-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow">Model W924</span>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-slate-900 mb-2">Aluminum Framed Arc Mirror Vanity</h3>
+                            <div class="space-y-2.5 text-xs text-slate-600 mb-6">
+                                <p class="flex items-start"><i class="fa-solid fa-layer-group text-emerald-600 mt-0.5 mr-2"></i><span><strong>Material:</strong> Solid Wood Plywood with Paint-Free Finish</span></p>
+                                <p class="flex items-start"><i class="fa-solid fa-ruler-combined text-emerald-600 mt-0.5 mr-2"></i><span><strong>Main Cabinet Size (L×W×H):</strong><br><span class="text-slate-900 font-bold">800 / 900 / 1000 mm</span><br><span class="text-emerald-700 font-semibold">(31.5" / 35.4" / 39.4" inches)</span></span></p>
+                                <p class="flex items-start"><i class="fa-solid fa-wand-magic-sparkles text-emerald-600 mt-0.5 mr-2"></i><span><strong>Key Features:</strong> Aluminum alloy edge wrapping frame structure, arc-shaped Radar motion sensor LED mirror.</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6 pt-0 border-t border-slate-100 mt-auto">
+                        <div class="flex flex-col gap-2.5 mt-4">
+                            <span class="bg-emerald-50 text-emerald-700 text-xs font-bold px-3 py-1.5 rounded-md border border-emerald-200 text-center">
+                                <i class="fa-solid fa-pen-ruler mr-1"></i> Custom Sizes Supported
+                            </span>
+                            <a href="https://wa.me/8615090693565?text=Hi%2C%20I%20want%20to%20get%20a%20custom%20quote%20for%20Model%20W924." target="_blank" class="bg-slate-900 hover:bg-emeraldBrand text-white text-xs font-semibold py-2.5 rounded-md text-center transition duration-200 block">
+                                Get Custom Quote
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
 
-    <!-- 联系与快速咨询区 -->
-    <section id="contact" class="bg-blue-900 text-white py-16">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 class="text-3xl font-bold mb-4">联系晨耀卫浴</h2>
-            <p class="text-lg text-gray-300 max-w-2xl mx-auto mb-8">
-                寻找可靠的浴室柜制造合作伙伴？立即通过电子邮件或 WhatsApp 联系我们获取产品目录、报价与集装箱装柜方案。
-            </p>
-            <div class="flex flex-col sm:flex-row justify-center items-center gap-8 text-lg mb-8">
-                <div class="flex items-center gap-2">
-                    <span>📧 邮箱:</span>
-                    <a href="mailto:postmaster@chenyaobathroom.com" class="underline text-blue-300 hover:text-white">postmaster@chenyaobathroom.com</a>
+    <!-- Quick Inquiry -->
+    <section id="calculator" class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-slate-900 text-white rounded-3xl p-8 sm:p-12 shadow-2xl">
+                <div class="text-center max-w-xl mx-auto mb-10">
+                    <h2 class="text-2xl sm:text-3xl font-bold mb-3">Quick RFQ & Custom Quote Inquiry</h2>
+                    <p class="text-slate-400 text-sm">Select your model or custom request below and contact our team directly on WhatsApp.</p>
                 </div>
-                <div class="flex items-center gap-2">
-                    <span>💬 WhatsApp:</span>
-                    <a href="https://wa.me/8615090693565" target="_blank" class="underline text-green-300 hover:text-white">+86 15090693565</a>
-                </div>
+                <form id="rfqForm" class="space-y-6">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-sm font-medium text-slate-300 mb-2">Select Model / Custom Request</label>
+                            <select id="vanityStyle" class="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-emerald-500">
+                                <option value="Model W964 - Minimalist Curved Vanity">Model W964</option>
+                                <option value="Model W967 - Natural Wood-Grain Arc Vanity">Model W967</option>
+                                <option value="Model W991 - Luxury Walnut Finish Suite">Model W991</option>
+                                <option value="Model W6620 - Classic Dual-Door Storage Vanity">Model W6620</option>
+                                <option value="Model W6630 - Modern Light-Walnut Smart Vanity">Model W6630</option>
+                                <option value="Model W6622 - Orchid Grey Skin-Feel Vanity">Model W6622</option>
+                                <option value="Model W6623 - Mocha Grey Skin-Feel Vanity">Model W6623</option>
+                                <option value="Model W6624 - Smart Basket Vanity Suite">Model W6624</option>
+                                <option value="Model W6631 - Retro Wood-Grain Vanity">Model W6631</option>
+                                <option value="Model W906 - Built-In Silver Mirror Vanity">Model W906</option>
+                                <option value="Model W914 - Gunmetal Grey Modern Vanity">Model W914</option>
+                                <option value="Model W924 - Aluminum Framed Arc Mirror Vanity">Model W924</option>
+                                <option value="Custom Size / US-EU Standard Customization Request">Custom Size / US-EU Specification Request</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-slate-300 mb-2">Estimated Quantity (Sets)</label>
+                            <input type="number" id="vanityQty" value="50" min="10" class="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-emerald-500">
+                        </div>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-slate-300 mb-2">Your Company Name / Country</label>
+                        <input type="text" id="clientInfo" placeholder="e.g. ABC Building Materials, USA" class="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-3 text-white placeholder-slate-500 focus:outline-none focus:border-emerald-500">
+                    </div>
+                    <div>
+                        <button type="button" onclick="sendWhatsApp()" class="w-full bg-emeraldBrand hover:bg-emerald-700 text-white font-bold py-4 rounded-xl transition flex items-center justify-center space-x-2 shadow-lg shadow-emerald-600/30">
+                            <i class="fa-brands fa-whatsapp text-xl"></i>
+                            <span>Send Custom RFQ via WhatsApp Business</span>
+                        </button>
+                    </div>
+                </form>
             </div>
         </div>
     </section>
 
-    <!-- 页脚 -->
-    <footer class="bg-gray-900 text-gray-400 py-8 text-center text-sm">
-        <p>&copy; 2026 Chenyao Bathroom Factory. All rights reserved.</p>
+    <!-- Footer -->
+    <footer id="contact" class="bg-slate-950 text-slate-400 py-12 border-t border-slate-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between">
+            <div class="flex items-center space-x-3 mb-4 sm:mb-0">
+                <div class="bg-emeraldBrand text-white p-2 rounded-lg text-sm font-bold">
+                    <i class="fa-solid fa-sink"></i>
+                </div>
+                <span class="text-white font-bold tracking-tight">VANITY DIRECT FACTORY</span>
+            </div>
+            <p class="text-xs text-slate-500">&copy; 2026 Vanity Direct. All rights reserved. WhatsApp: +86 15090693565</p>
+        </div>
     </footer>
 
+    <!-- Script for WhatsApp Business redirection -->
+    <script>
+        function sendWhatsApp() {
+            const style = document.getElementById('vanityStyle').value;
+            const qty = document.getElementById('vanityQty').value;
+            const client = document.getElementById('clientInfo').value || 'Global Buyer';
+            
+            const message = `Hello, I am from ${client}. I am interested in your vanities.\n\n- Request: ${style}\n- Quantity: ${qty} sets\n- Customization: Custom dimensions/US-EU sizing tailored request\n\nPlease send me your latest FOB price list.`;
+            
+            const phoneNumber = "8615090693565";
+            
+            const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+            window.open(url, '_blank');
+        }
+    </script>
 </body>
 </html>
